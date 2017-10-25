@@ -6,7 +6,7 @@ pipeline:
   build:
     image: golang:latest
     commands:
-      - go get github.com/kevin7674/DNN-TEST
+      - go get 
       - go test
       - go build
 
