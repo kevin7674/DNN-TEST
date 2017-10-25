@@ -1,6 +1,6 @@
 workspace:
   base: /go
-  path: src/github.com/kevin7674/DNN-TEST/hello.go
+  path: src/github.com/kevin7674/DNN-TEST
   
 pipeline:
   build:
