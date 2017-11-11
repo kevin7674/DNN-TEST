@@ -10,5 +10,10 @@ pipeline:
       #- go test
       #- go build
 
+#fonted:
+  #image: node:6
+  #commands:
+    #- npm install
+   #- npm test
 
 
