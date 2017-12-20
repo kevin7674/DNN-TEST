@@ -8,7 +8,7 @@ pipeline:
     commands:
       - go get
       - go build hello.go
-      - go test hello.go     
+      - go test      
       
   #deps:
     #image: golang:latest
