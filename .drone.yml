@@ -9,16 +9,6 @@ pipeline:
       - go get
       - go build 
       - go test -v .      
-      
-  #deps:
-    #image: golang:latest
-    #commands:
-      #- go get
-      #- go test
-  #build:
-    #image: node:latest
-    #commands:
-      #- go build      
 
 +branches: master
 
