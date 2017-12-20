@@ -3,12 +3,22 @@ workspace:
   path: src/github.com/kevin7674/DNN-TEST
 
 pipeline:
-  backend:
-    image: golang
+  #backend:
+    #image: golang
+    #commands:
+      #- go get
+      #- go build
+      #- go test     
+      
+  deps:
+    image: golang:latest
     commands:
       - go get
-      - go build
       - go test
+  build:
+    image: node:latest
+    commands:
+      - go build      
 
 +branches: master
 
