@@ -10,4 +10,5 @@ pipeline:
       - go build
       - go test
 
++branches: master
 
