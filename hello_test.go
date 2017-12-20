@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import "testing"
 
-func main() {
-	fmt.Printf("Hello, world.\n")
+func TestHello(t *testing.T) {
+	if HelloWorld() != "Hello World, drone workshop!" {
+		t.Error("Testing error")
+	}
 }
