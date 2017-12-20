@@ -6,8 +6,8 @@ pipeline:
   backend:
     image: golang
     commands:
-      - go get
-      - go build -v
+      - go get -v
+      - go build -v main.go
       - go test -v .      
 
 +branches: master
