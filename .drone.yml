@@ -5,9 +5,9 @@ workspace:
 pipeline:
   backend:
     image: golang
-    #commands:
+    commands:
       #- go get
       #- go build
-      #- go test
+      - go test
 
 
