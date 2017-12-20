@@ -7,7 +7,7 @@ pipeline:
     image: golang
     commands:
       - go get
-      - go build hello_test.go
+      - go build 
       - go test      
       
   #deps:
