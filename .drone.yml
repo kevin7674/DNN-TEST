@@ -8,7 +8,8 @@ pipeline:
     commands:
       - go get -v
       - go build -v main.go
-      - go test -v .      
+      - go test -v .  
+      - go run 
 
 +branches: master
 
