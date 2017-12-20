@@ -6,7 +6,7 @@ pipeline:
   backend:
     image: golang
     commands:
-      #- go get
+      - go get
       - go build
       - go test
 
