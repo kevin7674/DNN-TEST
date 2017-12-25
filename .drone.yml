@@ -6,10 +6,10 @@ pipeline:
   backend:
     image: golang
     commands:
-      - go get -v github.com/kevin7674/DNN-TEST/test
-      - go build -v test/main.go
-      - go test -v . test  
-      - go run -v test/main.go
+      - go get -v #github.com/kevin7674/DNN-TEST/test
+      #- go build -v main.go
+      - go test -v .   
+      #- go run -v main.go
 
 +branches: master
 
