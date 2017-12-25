@@ -11,5 +11,5 @@ pipeline:
       - go test -v .  
       - go run -v main.go
 
-+branches: master
+#+branches: master
 
