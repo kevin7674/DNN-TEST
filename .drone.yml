@@ -6,17 +6,16 @@ pipeline:
   backend:
     image: golang
     commands:
-      - go get -v #github.com/kevin7674/DNN-TEST/test
-      - go test -v test/main_test.go test/main.go   
+      - go get -v #github.com/kevin7674/DNN-TEST/test  
       #- go run -v test/main.go
       - go build -v 
+      - go test -v test/main_test.go test/main.go 
  
-  docker:
+  publish:
     image: plugins/docker
-    username: kevinbacon
-    password: pa55word
-    repo: foo/bar
-    tags: latest
+    repo: 100.86.2.10:32190/bar
+    tags: [ 1.0.0, 1.0, latest ]
+
  
 
 +branches: master
