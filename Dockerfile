@@ -1,3 +1,3 @@
 FROM alpine:3.5
-ADD main.go
+ADD main.go /
 CMD ["top"]
