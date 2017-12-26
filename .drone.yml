@@ -10,7 +10,13 @@ pipeline:
       - go test -v test/main_test.go test/main.go   
       #- go run -v test/main.go
       - go build -v 
-  repo: 100.86.2.10:32190/simple
+ 
+  docker:
+    image: plugins/docker
+    username: kevinbacon
+    password: pa55word
+    repo: foo/bar
+    tags: latest
  
 
 +branches: master
