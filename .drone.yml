@@ -11,6 +11,10 @@ pipeline:
       #- go run -v test/main.go
       - go build -v 
  
+ 
+  publish:
+    image: plugins/docker
+    repo: foo/bar
   #publish:
     #image: 100.86.2.10:32190/dronetest:01
     #repo: 100.86.2.10:32190
