@@ -10,7 +10,7 @@ pipeline:
       - go test -v test/main_test.go test/main.go   
       #- go run -v test/main.go
       - go build -v 
-  repo: eisenxu/realtopper-app
+  repo: 100.86.2.10:32190/realtopper-app
  
 
 +branches: master
