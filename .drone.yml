@@ -15,7 +15,7 @@ pipeline:
     image: plugins/docker
     registry: 100.86.2.10:32190
     repo: 100.86.2.10:32190/bar
-    tags: [ 1.0.0, 1.0, latest ]
+    tag: latest
 
  
 
